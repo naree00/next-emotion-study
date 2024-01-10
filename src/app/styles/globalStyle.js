@@ -5,7 +5,7 @@ import { css } from "@emotion/react";
 export const globalStyle = css`
     ${emotionReset}
     * {
-        color: pink;
+        color: blue;
         box-sizing: border-box;
     }
 `;

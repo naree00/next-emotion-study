@@ -16,7 +16,7 @@ const Header = styled.header`
     padding: 10px;
     background: #777;
 `;
-const Main = styled.main`
+const Container = styled.main`
     padding: 10px;
     min-height: 500px;
 `;
@@ -37,14 +37,14 @@ export default function RootLayout({ children }) {
                                     <Link href="/">home</Link>
                                 </li>
                                 <li>
-                                    <Link href="/">list</Link>
+                                    <Link href="/list">list</Link>
+                                </li>
+                                <li>
+                                    <Link href="/notice">notice</Link>
                                 </li>
                             </ul>
                         </Header>
-                        <Main>
-                            <ThemeTest>1111</ThemeTest>
-                            {children}
-                        </Main>
+                        <Container>{children}</Container>
                         <Footer>footer</Footer>
                     </Wrap>
                 </body>
