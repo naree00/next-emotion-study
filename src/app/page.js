@@ -1,24 +1,23 @@
 import Image from "next/image";
 import img01 from "/public/images/testimg.jpg";
-import { useMediaQuery } from "react-responsive";
+import { PC, TABLET, MOBILE } from "./_components/responsive";
 
 export default function Home() {
-    // const [isPc, setIsPc] = useState(false);
-    const isPC = useMediaQuery({
-        query: "(min-width: 1200px)",
-    });
-    const isTablet = useMediaQuery({
-        query: "(min-width: 798px)",
-    });
-    const isMo = useMediaQuery({
-        query: "(max-width: 797px)",
-    });
     return (
         <>
             <p>home</p>
-            {isPC && <p>PC</p>}
-            {isTablet && <p>Tablet</p>}
-            {isMo && <p>Mo</p>}
+            <PC>
+                <p>PC</p>
+            </PC>
+
+            <TABLET>
+                <p>Tablet</p>
+            </TABLET>
+
+            <MOBILE>
+                <p>Mo</p>
+            </MOBILE>
+
             <Image
                 src={img01}
                 width={500}
