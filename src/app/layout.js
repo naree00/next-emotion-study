@@ -40,7 +40,16 @@ export default function RootLayout({ children }) {
                                     <Link href="/list">list</Link>
                                 </li>
                                 <li>
-                                    <Link href="/notice">notice</Link>
+                                    <Link href="/error">error</Link>
+                                </li>
+                                <li>
+                                    <Link href="/loading">loading</Link>
+                                </li>
+                                <li>
+                                    <Link href="/template">template</Link>
+                                </li>
+                                <li>
+                                    <Link href="/testtemp">testtemp</Link>
                                 </li>
                             </ul>
                         </Header>
