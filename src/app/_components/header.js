@@ -44,6 +44,9 @@ export default function header() {
                 <li>
                     <Link href="/loading">loading</Link>
                 </li>
+                <li>
+                    <Link href="/button">button</Link>
+                </li>
             </ul>
         </Header>
     );

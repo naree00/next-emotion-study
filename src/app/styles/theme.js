@@ -1,6 +1,9 @@
 export const theme = {
     colors: {
-        primary: "blue",
+        primary: "#1976de",
+        secondary: "#9c27b0",
+        success: "#2E7d32",
+        error: "#D32F2F",
     },
     textColors: {
         primary: "#555B66",

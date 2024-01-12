@@ -8,24 +8,16 @@ export default function page() {
             <p>news group</p>
             <ul>
                 <li>
-                    <Link href="/detail/[id].js" as="/1">
-                        1
-                    </Link>
+                    <Link href="news/detail/1">1</Link>
                 </li>
                 <li>
-                    <Link href="/detail/[id].js" as="/2">
-                        2
-                    </Link>
+                    <Link href="news/detail/2">2</Link>
                 </li>
                 <li>
-                    <Link href="/detail/[id].js" as="/3">
-                        3
-                    </Link>
+                    <Link href="news/detail/3">3</Link>
                 </li>
                 <li>
-                    <Link href="/detail/[id].js" as="/4">
-                        4
-                    </Link>
+                    <Link href="news/detail/4">4</Link>
                 </li>
             </ul>
         </div>
